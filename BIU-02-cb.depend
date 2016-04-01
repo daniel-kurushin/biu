@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1441624770 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/BIU_0x0F.c
+	"BIU_0x0F.h"
+
+1446182393 /home/dan/Yandex.Disk/Src/BIU-02-cb/BIU_0x0F.h
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1443618116 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/fuse.c
+	<avr/io.h>
+
+1449137484 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/main.c
+	"header.h"
+	"pins.h"
+	"encoders.h"
+	"rfsensor.h"
+	"flickers.h"
+	"usart.h"
+	"twi.h"
+	"khc.h"
+	"kru.h"
+	<string.h>
+
+1446458101 /home/dan/Yandex.Disk/Src/BIU-02-cb/header.h
+	<stdbool.h>
+	<avr/common.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1446183415 /home/dan/Yandex.Disk/Src/BIU-02-cb/pinDefines.h
+	<avr/io.h>
+
+1443620061 /home/dan/Yandex.Disk/Src/BIU-02-cb/encoders_and_rfinder.h
+
+1446182393 /home/dan/Yandex.Disk/Src/BIU-02-cb/flickers.h
+	<avr/common.h>
+	"header.h"
+
+1443619946 /home/dan/Yandex.Disk/Src/BIU-02-cb/net_USART.h
+	"header.h"
+	"KHC.h"
+	"KRU.h"
+
+1443620099 /home/dan/Yandex.Disk/Src/BIU-02-cb/KHC.h
+
+1443620115 /home/dan/Yandex.Disk/Src/BIU-02-cb/KRU.h
+
+1443620085 /home/dan/Yandex.Disk/Src/BIU-02-cb/net_TWI.h
+
+1449137474 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/encoders.c
+	<avr/interrupt.h>
+	"encoders.h"
+	"pins.h"
+	"header.h"
+	"kru.h"
+
+1446183004 /home/dan/Yandex.Disk/Src/BIU-02-cb/encoders.h
+	"pins.h"
+
+1446182393 /home/dan/Yandex.Disk/Src/BIU-02-cb/pins.h
+	<avr/io.h>
+
+1448258106 /home/dan/Yandex.Disk/Src/BIU-02-cb/kru.h
+	<avr/common.h>
+	<stdbool.h>
+
+1446183307 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/flickers.c
+	"header.h"
+	"flickers.h"
+	"pins.h"
+
+1446182393 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/khc.c
+	"header.h"
+	"khc.h"
+	"pins.h"
+	<util/delay.h>
+
+1446182393 /home/dan/Yandex.Disk/Src/BIU-02-cb/khc.h
+	<stdbool.h>
+	"header.h"
+
+1448887665 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/kru.c
+	"header.h"
+	"kru.h"
+	"pins.h"
+	"flickers.h"
+	"usart.h"
+	<stdlib.h>
+	<avr/common.h>
+
+1449134685 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/rfsensor.c
+	"header.h"
+	"rfsensor.h"
+	"pins.h"
+	"kru.h"
+	<util/delay.h>
+
+1446182393 /home/dan/Yandex.Disk/Src/BIU-02-cb/rfsensor.h
+	<avr/common.h>
+
+1446182393 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/twi.c
+	"twi.h"
+	"header.h"
+	"pins.h"
+
+1446182393 /home/dan/Yandex.Disk/Src/BIU-02-cb/twi.h
+
+1449046075 source:/home/dan/Yandex.Disk/Src/BIU-02-cb/usart.c
+	"usart.h"
+	"pins.h"
+	"khc.h"
+	"kru.h"
+	"rfsensor.h"
+	"flickers.h"
+	"encoders.h"
+	<stdlib.h>
+	<string.h>
+	<util/delay.h>
+
+1446559177 /home/dan/Yandex.Disk/Src/BIU-02-cb/usart.h
+	"header.h"
+	<avr/common.h>
+	<stdbool.h>
+
